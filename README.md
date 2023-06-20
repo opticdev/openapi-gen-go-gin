@@ -9,8 +9,10 @@ These steps assume you have Go and Curl installed.
 Note: It'll be easiest to follow along if you run steps 2-4 in their own terminal windows or panes.
 
 1. Install deps, `go mod tidy`.
-1. Start the app, `go run main.go`. It will run on port `8080`. 
+1. Start the app, `go run main.go`.
+    - It will run on port `8080`.
 1. Start the Optic proxy, `optic capture --reverse-proxy openapi.yml http://localhost:8080`.
+    - The commands output should tell you, but the proxy will default to running on port `8000`.
 1. Send traffic to the Optic proxy by running, `./curl.sh`.
     - Take a peek inside this script too. It's just running `curl` commands for the API endpoints.
 1. Stop the app and the proxy with `ctrl-c` in their respective terminals.
