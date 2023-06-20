@@ -4,7 +4,9 @@ An example API written with the Go Gin web framework to demonstrate generating a
 
 # Getting started
 
-These steps assume you have Go and Curl installed.
+Dependencies:
+- Go
+- Curl
 
 Note: It'll be easiest to follow along if you run steps 2-4 in their own terminal windows or panes.
 
