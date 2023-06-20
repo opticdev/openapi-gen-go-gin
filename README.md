@@ -6,7 +6,7 @@ An example API written with the Go Gin web framework to demonstrate generating a
 
 These steps assume you have Go and Curl installed.
 
-Note: It'll be easiest to follow along if you run steps 2-4 in their own terminal windows or panes.optic
+Note: It'll be easiest to follow along if you run steps 2-4 in their own terminal windows or panes.
 
 1. Install deps, `go mod tidy`.
 1. Start the app, `go run main.go`. It will run on port `8080`. 
