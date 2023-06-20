@@ -21,4 +21,4 @@ Note: It'll be easiest to follow along if you run steps 2-4 in their own termina
 1. Stop the app and the proxy with `ctrl-c` in their respective terminals.
 1. Write the captured traffic to `./openapi.yml`, `optic update openapi.yml --all`
 
-If you take a look at newly generated `openapi.yml` file you see 3 documented endpoints that correspond to the `./curl.sh` file. You can change the endpoints, add or remove them, and rerun steps 2-5 to update your OpenAPI file.
+If you take a look at newly generated `openapi.yml` fil. You'll see 3 documented endpoints that correspond to the requests made in the `./curl.sh` file. You can change the endpoints, add or remove them, and rerun steps 2-5 to update your OpenAPI file.
