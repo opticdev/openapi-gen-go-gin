@@ -1,0 +1,14 @@
+capture:
+  openapi.yml:
+    server:
+      command: go run main.go
+      url: http://localhost:8080
+      ready_endpoint: / 
+      ready_interval: 5000
+    requests:
+      - path: /
+      - path: /users
+      - path: /users/create
+        verb: POST
+        data:
+          name: Hank
