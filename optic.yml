@@ -6,7 +6,7 @@ capture:
       command: go run main.go
       url: http://localhost:8080
       ready_endpoint: / 
-      ready_interval: 5000
+      ready_interval: 100
     requests:
       - path: /
       - path: /users
