@@ -1,5 +1,7 @@
 capture:
   openapi.yml:
+    config:
+      request_concurrency: 4
     server:
       command: go run main.go
       url: http://localhost:8080
