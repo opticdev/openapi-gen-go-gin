@@ -5,7 +5,7 @@ capture:
     server:
       command: go run main.go     # optional, if ommitted Optic assumes the server is running or started elsewhere.
       url: http://localhost:8080  # required, can be overriden with `--server-override`
-      ready_endpoint: /           # optional, default: /
+      ready_endpoint: /           # optional, if omitted no readiness checks are performed
       ready_interval: 100         # optional, ms, default: 1000
       ready_timeout: 60_000       # optional, ms, default 60_000 (1 minute)
     requests:
@@ -22,4 +22,4 @@ capture:
         - path: /users/create  # required
           method: POST         # optional, default: GET
           data:                # optional, default: {}
-            name: Hank         # converted to {"name:"Hank"}
+            name: Hank         # converted to {"name":"Hank"}
