@@ -60,7 +60,6 @@ func main() {
 	router := setupRouter()
 	err := router.Run(":8080")
 	if err != nil {
-		fmt.Printf("%s", err)
-		os.Exit(1)
+		panic(err)
 	}
 }
