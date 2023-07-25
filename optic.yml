@@ -10,6 +10,7 @@ capture:
       run:
         command: hurl hurl/*.hurl
         proxy_variable: HURL_OPTIC_PROXY
+      # the requests below will be made by Optic and are equivalent to the hurl example above
       send:
         - path: /
         - path: /users
