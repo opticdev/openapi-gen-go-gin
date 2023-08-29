@@ -1,3 +1,5 @@
+⚠️ This repo has been deprecated in favor of https://github.com/opticdev/examples. ⚠️
+
 # openapi-gen-go-gin
 
 An example API written with the Go Gin web framework to demonstrate generating an OpenAPI v3 specification.
